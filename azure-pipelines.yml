@@ -23,6 +23,6 @@ steps:
 
 - task: AzureRmWebAppDeployment@3
   inputs:
-    azureSubscription: 'GroupITDev'
+    azureSubscription: 'Group IT BS Development'
     WebAppName: 'pipelinesdotnetcore-eu-w-wdx-wa'
     Package: $(System.ArtifactsDirectory)/**/*.zip
