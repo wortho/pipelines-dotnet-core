@@ -20,3 +20,9 @@ steps:
     testResultsFiles: '**/*.trx'
 
 - task: PublishBuildArtifacts@1
+
+- task: AzureRmWebAppDeployment@3
+  inputs:
+    azureSubscription: 'GroupITDev'
+    WebAppName: 'pipelinesdotnetcore-eu-w-wdx-wa'
+    Package: $(System.ArtifactsDirectory)/**/*.zip
