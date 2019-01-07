@@ -2,14 +2,8 @@
 
 For information on how to use this repository, see [.NET Core](https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core).
 
-| Example | Build status |
-|---------|--------------|
-| Build | [![Build status](https://dev.azure.com/pipelines-docs/docs/_apis/build/status/dotnetcore/dotnetcore)](https://dev.azure.com/pipelines-docs/docs/_build/latest?definitionId=1) |
-| Build (YAML) | [![Build status](https://dev.azure.com/pipelines-docs/docs/_apis/build/status/dotnetcore/dotnetcore-yaml)](https://dev.azure.com/pipelines-docs/docs/_build/latest?definitionId=2) |
-| Build image and push to Docker Hub | [![Build status](https://dev.azure.com/pipelines-docs/docs/_apis/build/status/dotnetcore/dotnetcore-dockerhub)](https://dev.azure.com/pipelines-docs/docs/_build/latest?definitionId=3) |
-| Build image and push to Docker Hub (YAML) | [![Build status](https://dev.azure.com/pipelines-docs/docs/_apis/build/status/dotnetcore/dotnetcore-dockerhub-yaml)](https://dev.azure.com/pipelines-docs/docs/_build/latest?definitionId=4) |
-| Build image and push to Azure Container Registry | [![Build status](https://dev.azure.com/pipelines-docs/docs/_apis/build/status/dotnetcore/dotnetcore-acr)](https://dev.azure.com/pipelines-docs/docs/_build/latest?definitionId=5) |
-| Build image and push to Azure Container Registry (YAML) | [![Build status](https://dev.azure.com/pipelines-docs/docs/_apis/build/status/dotnetcore/dotnetcore-acr-yaml)](https://dev.azure.com/pipelines-docs/docs/_build/latest?definitionId=6) |
+[![Build Status](https://widex.visualstudio.com/FlexTool/_apis/build/status/SampleDotNet?branchName=master)](https://widex.visualstudio.com/FlexTool/_build/latest?definitionId=31?branchName=master)
+
 
 # Contributing
 
